@@ -10,7 +10,6 @@ const bgDanger = ref("bg-danger");
       <div>
         <p :class="(message.indexOf('<') != -1)?bgDanger:''"> {{ message.replace(/[^\w\s]/g, '') }} </p>
       </div>
-
 </template>
 
 <style scoped>
